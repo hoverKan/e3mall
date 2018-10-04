@@ -1,0 +1,17 @@
+package cn.e3mall.content.service;
+
+import cn.e3mall.common.utils.E3Result;
+import cn.e3mall.pojo.TbContent;
+
+import java.util.List;
+
+/**
+ * @author hoverkan
+ * @create 2018-10-04 16:35
+ */
+public interface ContentService {
+
+    E3Result addContent(TbContent content);
+
+    List<TbContent> getContentListByCid(long cid);
+}
