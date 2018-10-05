@@ -40,11 +40,11 @@
       <div id="index_slide" class="slide_wrap">
 		<ol>
 			<c:forEach items="${ad1List}" var="node" varStatus="status">
-			<li>
-			  <a name="sfbest_hp_hp_focus_${status.index }" class="fore_pic trackref" href="${node.url }" target="_blank"> 
-				<img id="lunbo_1" alt="${node.title }"	src="${node.pic }">
-			  </a>
-			</li>
+				<li>
+				  <a name="sfbest_hp_hp_focus_${status.index }" class="fore_pic trackref" href="${node.url }" target="_blank">
+					<img id="lunbo_1" alt="${node.title }"	src="${node.pic }">
+				  </a>
+				</li>
 			</c:forEach>
 			<!-- <li>
 			  <a name="sfbest_hp_hp_focus_1" class="fore_pic trackref" href="/html/activity/1471934470.html" target="_blank"> 

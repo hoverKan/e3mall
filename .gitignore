@@ -1,6 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea/
-e3parent.iml
+*.iml
 e3-common/src/main/resources/
 e3-common/src/test/resources/
 e3-common/target/
@@ -16,3 +16,12 @@ e3-manager/e3-manager-pojo/target/
 e3-manager/e3-manager-service/src/test/
 e3-manager/e3-manager-service/target/
 e3-manager/e3-manager-web/target/
+e3-common/src/test/java/
+e3-content/e3-content-interface/src/test/
+e3-content/e3-content-interface/target/
+e3-content/e3-content-service/src/test/
+e3-content/e3-content-service/target/
+e3-manager-web/src/test/resources/
+e3-manager-web/target/
+e3-portal-web/src/test/
+e3-portal-web/target/
